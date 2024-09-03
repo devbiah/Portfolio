@@ -45,9 +45,7 @@ const SignUp = () => {
 
     return (
         <SafeAreaView style={styles.container}>
-            <View>
-                <Text style={styles.title}>Registre-se</Text>
-            </View>
+            <Text style={styles.title}>Registre-se</Text>
             <View style={styles.inputContainer}>
                 <TextInput
                     style={styles.input}
@@ -102,31 +100,27 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 20,
+        backgroundColor: '#7F2026',
     },
-    
     title: {
         fontSize: 24,
         fontWeight: 'bold',
-        marginBottom: 20,
-
+        color: '#fff',
+        marginBottom: 10,
     },
     inputContainer: {
-        flex: 1,
         width: '100%',
-        justifyContent: 'center',
         alignItems: 'center',
     },
     input: {
-        flexGrow: 0,
-        flexShrink: 0,
-        flexBasis: 50, 
         padding: 10,
         borderWidth: 1,
-        borderColor: '#ccc',
+        borderColor: '#fff',
         borderRadius: 5,
         marginBottom: 15,
+        color: '#fff',
         alignSelf: 'stretch',
-        marginHorizontal: 20,  
+        marginHorizontal: 20,
     },
     button: {
         flexGrow: 0,
